@@ -1,0 +1,10 @@
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.osgi.org/xmlns/blueprint/v1.0.0 http://www.osgi.org/xmlns/blueprint/v1.0.0/blueprint.xsd"
+    default-availability="mandatory">
+
+<!--     <bean id="reverserBean" class="com.example.osgi.reverser.service.ReverserBean"/> -->
+<!--     <bean id="dateBean" class="com.example.osgi.reverser.service.DateBean"/> -->
+<!--     <service ref="reverserBean" interface="com.example.osgi.reverser.api.IReverserService"/> -->
+<!--     <service ref="dateBean" interface="com.example.osgi.reverser.api.IDateService"/> -->
+</blueprint>
