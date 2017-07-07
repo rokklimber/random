@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head> 
+    <title>Teaser: Output Page</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    Style: <span th:text="${style}">Style Text</span><br/>
+    Version: <span th:text="${apiVersion}">Version Text</span><br/>
+    Length: <span th:text="${requestedLen}">Length Text</span><br/>
+    Nums: <span th:text="${num1}">Number1</span>,  <span th:text="${num2}">Number2</span><br/>
+    Sum: <span th:text="${sum}">Sum</span><br/>
+    
+    <th:block th:if="${message}">
+      <span th:text="${message}" style="color:red">Message</span>
+    </th:block>
+</body>
+</html>
